@@ -11,7 +11,7 @@ class BActivity : AppCompatActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContentView(R.layout.activity_b)
-		Log.e("lifecycle", "onCreate - BActivity")
+		Log.e(TAG, "onCreate - BActivity")
 		button.setOnClickListener {
 			startActivity(Intent(this@BActivity, CActivity::class.java))
 		}
@@ -19,6 +19,6 @@ class BActivity : AppCompatActivity() {
 
 	override fun onNewIntent(intent: Intent?) {
 		super.onNewIntent(intent)
-		Log.e("lifecycle", "onNewIntent - BActivity")
+		Log.e(TAG, "onNewIntent - BActivity")
 	}
 }

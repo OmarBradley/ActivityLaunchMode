@@ -65,10 +65,5 @@
   - `dumpsys activity a | grep omarbradley.com.activitylaunchmode` 를 adb shell에 typing하시면서 
   - 나오는 결과를 보시면 될 듯 하다!
 
-
-
-
-
-
-
+5. 관련 생명주기 호출은 LogCat 검색에 `lifecycle` 키워드로 검색하면 나온다
 

@@ -50,6 +50,7 @@
 ```
   - `mResumedActivity` 은 가장 최근에 onResume() 을 호출한 Activity를 의미
   - `mLastPausedActivity` 은 가장 최근에 onPause() 를 호출한 Activity를 의미
+  - `intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10100000 cmp=omarbradley.com.activitylaunchmode/.MainActivity}` 여기 있는 MainActivity 가 RootActivity임
   
 3. 밑에 나온 예시 중에 TaskRecord 를 보면, Task에 있는 Activity를 순서대로 볼 수 있다
 ```
@@ -58,7 +59,6 @@
         Run #1: ActivityRecord{a7f789b u0 omarbradley.com.activitylaunchmode/.BActivity t9586}
         Run #0: ActivityRecord{cd94859 u0 omarbradley.com.activitylaunchmode/.MainActivity t9586}
 ```
-  - `Run #0` 은 TaskRoot를 의미함
 
 4. 앱 구조를 보면 단순히 3개의 Activity와 버튼으로만 구성되있음 
   - 해당 Activity에 android:launchMode를 지정하거나, 인텐트에 addFlag를 지정하면서 

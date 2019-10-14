@@ -61,9 +61,9 @@
   - `Run #0` 은 TaskRoot를 의미함
 
 4. 앱 구조를 보면 단순히 3개의 Activity와 버튼으로만 구성되있음 
-  -> 해당 Activity에 android:launchMode를 지정하거나, 인텐트에 addFlag를 지정하면서 
-  -> `dumpsys activity a | grep omarbradley.com.activitylaunchmode` 를 adb shell에 typing하시면서 
-  -> 나오는 결과를 보시면 될 듯 하다!
+  - 해당 Activity에 android:launchMode를 지정하거나, 인텐트에 addFlag를 지정하면서 
+  - `dumpsys activity a | grep omarbradley.com.activitylaunchmode` 를 adb shell에 typing하시면서 
+  - 나오는 결과를 보시면 될 듯 하다!
 
 
 

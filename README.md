@@ -50,7 +50,8 @@
 ```
   - `mResumedActivity` 은 가장 최근에 onResume() 을 호출한 Activity를 의미
   - `mLastPausedActivity` 은 가장 최근에 onPause() 를 호출한 Activity를 의미
-  - `intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10100000 cmp=omarbradley.com.activitylaunchmode/.MainActivity}` 여기 있는 MainActivity 가 RootActivity임
+  - ~~`intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10100000 cmp=omarbradley.com.activitylaunchmode/.MainActivity}` 여기 있는 MainActivity 가 RootActivity임~~ -> Task 시작 Activity가 RootActivity이다
+  
   
 3. 밑에 나온 예시 중에 TaskRecord 를 보면, Task에 있는 Activity를 순서대로 볼 수 있다
 ```
